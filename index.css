@@ -224,3 +224,71 @@ p.test-auth {
     width: 80%;
     opacity: .1;
 }
+
+@media (min-width: 550px) {
+    
+    body {
+        font-size: 18px;
+    }
+    
+    .menu, .exit {
+        display: none;
+    }
+    
+    header {
+        padding: 0 .5em;
+        align-items: baseline;
+    }
+    
+    header:last-child {
+        padding-right: 0;
+    }
+    
+    nav ul {
+        display: flex;
+        visibility: unset;
+        position: unset;
+        background: none;
+        opacity: 1;
+        font-size: .6em;
+        height: auto;
+        padding-top: 0;
+        
+    }
+    
+    p.subtitle {
+        font-size: 1.2em;
+    }
+    
+    .main-copy {
+        margin-bottom: 5em;
+    }
+    
+    h1 span {
+        margin-bottom: .25em;
+    }
+    
+    .left {
+        text-align: left;
+        margin-left: 3em;
+    }
+    
+    ul.featured-cabins,
+    ul.features,
+    ul.testimonials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        width: 90%;
+        justify-content: space-between;
+        margin: 2em auto;
+    }
+    
+    ul.featured-cabins li a {
+        margin-top: 2em;
+    }
+    
+    ul.testimonials {
+        margin-top: 3em;
+    }
+}
