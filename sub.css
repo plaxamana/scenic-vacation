@@ -64,6 +64,10 @@ ul.featured-cabins {
     place-content: flex-start;
   }
 
+  p.sub-desc {
+    width: 60%;
+  }
+
   .hero {
     padding: 0;
   }
