@@ -352,6 +352,7 @@ p.test-auth {
 
     .last-container {
         padding: 4em;
+        margin: 0 auto;
     }
 
     .main-quote,
@@ -365,13 +366,14 @@ p.test-auth {
     }
 
     .bio {
-        width: 90%;
+        width: 60%;
     }
 
     ul.testimonials {
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         margin: 0;
         padding: 0;
+        width: 40%;
     }
 
     ul.testimonials li {
